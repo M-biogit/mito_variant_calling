@@ -1,8 +1,19 @@
 #  Mitochondrial Short Variant Discovery
+##  Project Results (from vep_rep.pdf)
+
+**652 Variants ** Idenified→ **413 PASS** (63%)
+
+| Variant type | Number |
+|-------------|--------|
+| Missense | 123 |
+| Synonymous | 89 |
+| Stop gained | 45 |
+
+![Results](report/vep_rep.pdf)
 
 [![GATK Best Practices](https://img.shields.io/badge/GATK-Best%20Practices-blue.svg)](https://gatk.broadinstitute.org/hc/en-us/articles/4403870837275)
 
-**End-to-end pipeline** برای کشف SNVs/Indels میتوکندری با **GATK Mutect2** + **VEP annotation**.
+**End-to-end pipeline** To discover SNVs/Indels Mitochondria with **GATK Mutect2** + **VEP annotation**.
 
 ##  Results
 | Metric | Value |
